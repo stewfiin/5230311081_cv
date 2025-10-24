@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class CvController extends Controller
+class cvController extends Controller
 {
     public function show()
     {
