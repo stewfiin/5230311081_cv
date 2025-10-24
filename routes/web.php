@@ -14,4 +14,4 @@ use App\Http\Controllers\cvController;
 */
 
 
-Route::get('/', [CvController::class, 'show']);
+Route::get('/', [cvController::class, 'show']);
