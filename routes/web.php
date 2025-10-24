@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CvController;
+use App\Http\Controllers\cvController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,4 +14,4 @@ use App\Http\Controllers\CvController;
 */
 
 
-Route::get('/', [CvController::class, 'show']);
+Route::get('/', [cvController::class, 'show']);
